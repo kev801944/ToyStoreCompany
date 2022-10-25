@@ -8,13 +8,8 @@ public class ToyStoreApplication {
 	public static void main(String[] args) {
 		Scanner keyboard = new Scanner(System.in);
 		MainMenu.mainMenu();
-		try {
-			int inputOption = keyboard.nextInt();
-		}catch(Exception e) {
-			System.out.println(e);
-		}
-		
-		
+		int inputOption = keyboard.nextInt();
+
 		switch(inputOption) {
 		case 1:
 			SearchPurchaseMenu.searchPurchaseMenu();
