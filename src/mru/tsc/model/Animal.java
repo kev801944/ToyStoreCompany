@@ -1,5 +1,5 @@
 package mru.tsc.model;
 
-public class Animal {
+public class Animal extends Toy{
 	
 }
