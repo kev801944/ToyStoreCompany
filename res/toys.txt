@@ -196,7 +196,7 @@
 7344775739;Coppit;Game Buff;250.19;9;2;2-8;Mylie Campbell
 3015093594;Horse;Gamefluent;63.69;2;2;Plastic;S
 3679935385;Kitten;Game Mafia;21.00;5;5;Fabric;L
-3315715666;owl;Gamearo;191.76;13;6;Fabric;L
+3315715666;Owl;Gamearo;191.76;13;6;Fabric;L
 1024162826;Japanese traditional dolls;Game Demon;139.99;12;7;H
 2873391970;Squirrel;Game Buff;163.69;5;2;Plastic;L
 6855604945;Fifteen puzzle;Gameado;98.72;10;9;M

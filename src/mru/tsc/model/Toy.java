@@ -1,15 +1,15 @@
 package mru.tsc.model;
 
 public class Toy {
-	protected String sn;
+	protected Long sn;
 	protected String name;
 	protected String brand;
-	protected String price;
-	protected String availableCount;
-	protected String ageAppropriate;
+	protected double price;
+	protected int availableCount;
+	protected int ageAppropriate;
 	
-	public Toy(String sn, String name, String brand, String price, 
-			String availableCount, String ageAppropriate) {
+	public Toy(Long sn, String name, String brand, double price, 
+			int availableCount, int ageAppropriate) {
 		this.sn = sn;
 		this.name = name;
 		this.brand = brand;
@@ -18,32 +18,51 @@ public class Toy {
 		this.ageAppropriate = ageAppropriate;
 	}
 	
-	public String getSN() {
-		return this.sn;
-	}
-	
-	public String getSn() {
+	public Long getSn() {
 		return sn;
+	}
+
+	public void setSn(Long sn) {
+		this.sn = sn;
 	}
 
 	public String getName() {
 		return name;
 	}
 
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	public String getBrand() {
 		return brand;
 	}
 
-	public String getPrice() {
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+
+	public double getPrice() {
 		return price;
 	}
 
-	public String getAvailableCount() {
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public int getAvailableCount() {
 		return availableCount;
 	}
 
-	public String getAgeAppropriate() {
+	public void setAvailableCount(int availableCount) {
+		this.availableCount = availableCount;
+	}
+
+	public int getAgeAppropriate() {
 		return ageAppropriate;
 	}
-	
+
+	public void setAgeAppropriate(int ageAppropriate) {
+		this.ageAppropriate = ageAppropriate;
+	}
 }
