@@ -17,4 +17,10 @@ public class Puzzle extends Toy{
 	public void setPuzzleType(String puzzleType) {
 		this.puzzleType = puzzleType;
 	}
+
+	@Override
+	public String Format(String s) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

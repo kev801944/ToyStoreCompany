@@ -28,9 +28,15 @@ public class Animal extends Toy{
 	public void setSize(String size) {
 		this.size = size;
 	}
-	
+
 	@Override
-	public String toString() {
-		return "Animal";
+	public String Format(String s) {
+		// TODO Auto-generated method stub
+		return "s";
 	}
+	
+//	@Override
+//	public String toString() {
+//		return "Animal";
+//	}
 }

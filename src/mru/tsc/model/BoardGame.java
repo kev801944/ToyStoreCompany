@@ -42,4 +42,10 @@ public class BoardGame extends Toy{
 	public String getNumOfPlayer(int minPlayer, int maxPlayer) {
 		return minPlayer + " " + maxPlayer;
 	}
+
+	@Override
+	public String Format(String s) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

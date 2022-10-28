@@ -17,4 +17,10 @@ public class Figure extends Toy{
 	public void setClassification(String classification) {
 		this.classification = classification;
 	}
+
+	@Override
+	public String Format(String s) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

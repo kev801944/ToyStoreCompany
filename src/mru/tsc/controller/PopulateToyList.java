@@ -27,10 +27,10 @@ public class PopulateToyList {
 			int availableCount = Integer.parseInt(entryList.get(i)[4]);
 			int ageAppropriate = Integer.parseInt(entryList.get(i)[5]);
 			
+			
 			switch(formatNum) {
 			case '0':
 				String classificationA = entryList.get(i)[6];
-//				System.out.println("Figures");
 				Figure figureA = new Figure(sn,name,brand,price,
 						availableCount,ageAppropriate,classificationA);
 				toyList.add(figureA);
@@ -38,14 +38,12 @@ public class PopulateToyList {
 				
 			case '1':
 				String classificationB = entryList.get(i)[6];
-//				System.out.println("Figures");
 				Figure figureB = new Figure(sn,name,brand,price,
 						availableCount,ageAppropriate,classificationB);
 				toyList.add(figureB);
 				break;
 				
 			case '2':
-//				System.out.println("Animals");
 				String materialA = entryList.get(i)[6];
 				String sizeA = entryList.get(i)[7];
 				
@@ -55,7 +53,6 @@ public class PopulateToyList {
 				break;
 				
 			case '3':
-//				System.out.println("Animals");
 				String materialB = entryList.get(i)[6];
 				String sizeB = entryList.get(i)[7];
 				Animal animalB = new Animal(sn,name,brand,price,
@@ -64,7 +61,6 @@ public class PopulateToyList {
 				break;		
 		
 			case '4':
-//				System.out.println("Puzzles");
 				String puzzleTypeA = entryList.get(i)[6];
 				Puzzle puzzleA = new Puzzle(sn,name,brand,price,
 						availableCount,ageAppropriate,puzzleTypeA);
@@ -72,7 +68,6 @@ public class PopulateToyList {
 				break;	
 				
 			case '5':
-//				System.out.println("Puzzles");
 				String puzzleTypeB = entryList.get(i)[6];
 				Puzzle puzzleB = new Puzzle(sn,name,brand,price,
 						availableCount,ageAppropriate,puzzleTypeB);
@@ -80,7 +75,6 @@ public class PopulateToyList {
 				break;	
 				
 			case'6':
-//				System.out.println("Puzzles");
 				String puzzleTypeC = entryList.get(i)[6];
 				Puzzle puzzleC = new Puzzle(sn,name,brand,price,
 						availableCount,ageAppropriate,puzzleTypeC);
@@ -88,7 +82,6 @@ public class PopulateToyList {
 				break;
 				
 			case '7':
-//				System.out.println("Board Games");
 				String[] numOfPlayerA = entryList.get(i)[6].split("-");
 				int minPlayerA = Integer.parseInt(numOfPlayerA[0]);
 				int maxPlayerA = Integer.parseInt(numOfPlayerA[1]);
@@ -100,7 +93,6 @@ public class PopulateToyList {
 				break;
 				
 			case'8':
-//				System.out.println("Board Games");
 				String[] numOfPlayerB = entryList.get(i)[6].split("-");
 				int minPlayerB = Integer.parseInt(numOfPlayerB[0]);
 				int maxPlayerB = Integer.parseInt(numOfPlayerB[1]);
@@ -112,7 +104,6 @@ public class PopulateToyList {
 				break;
 			
 			case'9':
-//				System.out.println("Board Games");
 				String[] numOfPlayerC = entryList.get(i)[6].split("-");
 				int minPlayerC = Integer.parseInt(numOfPlayerC[0]);
 				int maxPlayerC = Integer.parseInt(numOfPlayerC[1]);

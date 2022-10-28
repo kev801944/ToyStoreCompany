@@ -1,13 +1,12 @@
 package mru.tsc.model;
 
-public class Toy {
+public abstract class Toy {
 	private Long sn;
 	private String name;
 	private String brand;
 	private double price;
 	private int availableCount;
 	private int ageAppropriate;
-	private String type = "Toy";
 	
 	public Toy(Long sn, String name, String brand, double price, 
 			int availableCount, int ageAppropriate) {
@@ -66,10 +65,7 @@ public class Toy {
 	public void setAgeAppropriate(int ageAppropriate) {
 		this.ageAppropriate = ageAppropriate;
 	}
-	
-	public String getType() {
-		return type;
-	}
+	public abstract String Format(String s);
 }
 
 
