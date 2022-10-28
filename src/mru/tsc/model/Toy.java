@@ -65,7 +65,7 @@ public abstract class Toy {
 	public void setAgeAppropriate(int ageAppropriate) {
 		this.ageAppropriate = ageAppropriate;
 	}
-	public abstract String Format(String s);
+	public abstract void Format();
 }
 
 

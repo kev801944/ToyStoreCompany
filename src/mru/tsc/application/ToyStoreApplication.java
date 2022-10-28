@@ -28,7 +28,7 @@ public class ToyStoreApplication {
 		ArrayList<String> rawData = InitialFileReader.initFileRead();
 		ArrayList<Toy> toyList = PopulateToyList.populateList(rawData);
 		for (Toy toy:toyList) {
-			System.out.println(toy.Format("qwe"));
+			toy.Format();
 		}
 		
 

@@ -19,8 +19,11 @@ public class Figure extends Toy{
 	}
 
 	@Override
-	public String Format(String s) {
+	public void Format() {
 		// TODO Auto-generated method stub
-		return null;
+		System.out.println("Category: Figure, "+"Serial Number: "+this.getSn()+", "+"Name: "+this.getName()+", "+
+		"Brand: "+this.getBrand()+", "+"Price: "+this.getPrice()+", "+
+		"Available Count: "+this.getAvailableCount()+", "+"Age Appropriate: "+this.getAgeAppropriate()+"+, "+
+		"Classification: "+this.classification);
 	}
 }

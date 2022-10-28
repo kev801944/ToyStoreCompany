@@ -30,13 +30,19 @@ public class Animal extends Toy{
 	}
 
 	@Override
-	public String Format(String s) {
+	public void Format() {
 		// TODO Auto-generated method stub
-		return "s";
+		System.out.println("Category: Animal, "+"Serial Number: "+this.getSn()+", "+"Name: "+this.getName()+", "+
+		"Brand: "+this.getBrand()+", "+"Price: "+this.getPrice()+", "+
+		"Available Count: "+this.getAvailableCount()+", "+"Age Appropriate: "+this.getAgeAppropriate()+"+, "+
+		"Material: "+this.material+", "+"Size: "+this.size);
 	}
-	
-//	@Override
-//	public String toString() {
-//		return "Animal";
-//	}
 }
+
+
+
+
+
+
+
+
