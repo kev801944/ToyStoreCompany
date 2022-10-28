@@ -1,12 +1,13 @@
 package mru.tsc.model;
 
 public class Toy {
-	protected Long sn;
-	protected String name;
-	protected String brand;
-	protected double price;
-	protected int availableCount;
-	protected int ageAppropriate;
+	private Long sn;
+	private String name;
+	private String brand;
+	private double price;
+	private int availableCount;
+	private int ageAppropriate;
+	private String type = "Toy";
 	
 	public Toy(Long sn, String name, String brand, double price, 
 			int availableCount, int ageAppropriate) {
@@ -65,4 +66,14 @@ public class Toy {
 	public void setAgeAppropriate(int ageAppropriate) {
 		this.ageAppropriate = ageAppropriate;
 	}
+	
+	public String getType() {
+		return type;
+	}
 }
+
+
+
+
+
+

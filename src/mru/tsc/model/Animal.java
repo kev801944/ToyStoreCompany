@@ -28,4 +28,9 @@ public class Animal extends Toy{
 	public void setSize(String size) {
 		this.size = size;
 	}
+	
+	@Override
+	public String toString() {
+		return "Animal";
+	}
 }

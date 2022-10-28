@@ -26,30 +26,12 @@ public class ToyStoreApplication {
 //		}
 		
 		ArrayList<String> rawData = InitialFileReader.initFileRead();
-		PopulateToyList.populateList(rawData);
+		ArrayList<Toy> toyList = PopulateToyList.populateList(rawData);
+		for (Toy toy:toyList) {
+			System.out.println(toy.toString());
+		}
 		
-		
-		
-//		ArrayList<String> rawData = InitialFileReader.initFileRead();
-//		ArrayList<String[]> snList = new ArrayList<String[]>();
-//		for(String data: rawData) {
-//			String[] sn = data.split(";");
-//			snList.add(sn);
-//			}
-//		for (int i = 0; i < snList.size(); i++) {
-//			for (int j = 0; j < snList.get(i).length; j++) {
-//				System.out.println(snList.get(i)[j]);
-//			}
-//		}
-		
-		
-		
-		
-		
-//		for(String entry:rawData) {
-//			System.out.println(entry);
-//		}
-//		ToyClassification.toyClassification(rawData);
+
 	}
 }
 

@@ -125,9 +125,6 @@ public class PopulateToyList {
 			}
 
 		}
-		for(Toy toy:toyList) {
-			System.out.println(toy);
-		}
 		return toyList;
 	}
 }
