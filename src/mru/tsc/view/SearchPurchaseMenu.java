@@ -1,5 +1,10 @@
 package mru.tsc.view;
 
+/**
+ * This class displays more choices for the user when they want to find a specific toy
+ * @author Kevin Luo and Shaina Anne Garrido
+ *
+ */
 public class SearchPurchaseMenu {
 	public static void searchPurchaseMenu() {
 		String[] statements = {

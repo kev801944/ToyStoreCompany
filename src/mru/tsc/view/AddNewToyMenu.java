@@ -3,7 +3,17 @@ package mru.tsc.view;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+/**
+ * This class is when a user inputs the required information when adding a new toy
+ * @author Kevin Luo and Shaina Anne Garrido
+ *
+ */
 public class AddNewToyMenu {
+	
+	/**
+	 * This creates an arraylist with the required information needed when adding a new toy
+	 * @param snChar the first character of the serial number
+	 */
     public static void addNewToyMenu(char snChar) {
         ArrayList<String> statemenStrings = new ArrayList<String>(
                 Arrays.asList("Enter Toy Name: ",

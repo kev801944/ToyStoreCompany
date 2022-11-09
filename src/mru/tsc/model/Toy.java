@@ -1,9 +1,9 @@
 package mru.tsc.model;
 
 /**
- * The Toy class is an abstract class that holds the general parameters a toy
- * needs to have.
+ * The Toy class is an abstract class that holds the general parameters that a toy needs to have.
  * Classes that represent a specific toy type will inherit from this class.
+ * @author Kevin Luo and Shaina Anne Garrido
  */
 public abstract class Toy {
 
@@ -57,7 +57,7 @@ public abstract class Toy {
 	/**
 	 * Mutator method to change the Serial Number
 	 * 
-	 * @param sn
+	 * @param sn the serial number
 	 */
 	public void setSn(Long sn) {
 		this.sn = sn;

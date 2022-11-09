@@ -3,6 +3,7 @@ package mru.tsc.model;
 /**
  * The Animal class is a class that holds information about a animal toy.
  * This class inherits from the parent class Toy
+ * @author Kevin Luo and Shaina Anne Garrido
  */
 public class Animal extends Toy {
 
@@ -13,14 +14,14 @@ public class Animal extends Toy {
 	private String size;
 
 	/**
-	 * Standard constructor
+	 * the constructor that holds the elements included for the animal toy
 	 * 
 	 * @param sn             Serial Number
 	 * @param name           Name of the toy
 	 * @param brand          Brand of the toy
 	 * @param price          Price of the toy
 	 * @param availableCount Amount of toys available
-	 * @param ageAppropriate Appropriate age of the toy
+	 * @param ageAppropriate the age the person must be to play with the figure
 	 * @param material       Material of the toy
 	 * @param size           Size of the toy
 	 */
@@ -36,25 +37,40 @@ public class Animal extends Toy {
 	}
 
 	/**
-	 * 
-	 * @return
+	 * the accessor method for material
+	 * @return the material
 	 */
 	public String getMaterial() {
 		return material;
 	}
 
+	/**
+	 * the mutator for the material of the toy
+	 * @param material is the material of the toy
+	 */
 	public void setMaterial(String material) {
 		this.material = material;
 	}
 
+	/**
+	 * the mutator method for the toy size
+	 * @return the size of the toy
+	 */
 	public String getSize() {
 		return size;
 	}
 
+	/**
+	 * the mutator method for the toy size
+	 * @param size the size of the toy
+	 */
 	public void setSize(String size) {
 		this.size = size;
 	}
 
+	/**
+	 * overrides Format from superclass
+	 */
 	@Override
 	public String Format() {
 		// TODO Auto-generated method stub
@@ -65,6 +81,9 @@ public class Animal extends Toy {
 				"Material: " + this.material + ", " + "Size: " + this.size);
 	}
 
+	/**
+	 * overrides Write from the superclass
+	 */
 	@Override
 	public String Write() {
 		return (this.getSn() + ";" + this.getName() + ";" + this.getBrand() + ";" + this.getPrice() + ";"

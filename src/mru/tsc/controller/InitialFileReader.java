@@ -8,6 +8,7 @@ import java.util.Scanner;
 /**
  * The initialFileReader class is a class that is used to read the toys.txt file and convert 
  * the data into an ArrayList of Strings that holds every entry of the toys.txt file
+ * @author Kevin Luo and Shaina Anne Garrido
  */
 public class InitialFileReader {
 

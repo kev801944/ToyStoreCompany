@@ -13,8 +13,10 @@ import mru.tsc.model.Toy;
  * and populate an ArrayList of Toy objects based on the parameters given by the data from InitialFileRead
  */
 public class PopulateToyList {
+	
 	/**
-	 * 
+	 * This creates a new arraylist containing the appropriate information based on the
+	 * parameters from the InitialFileRead class
 	 * @param rawData  The ArrayList containing the information of the toys from the toys.txt file
 	 * @return Returns an ArrayList of Toy objects 
 	 */

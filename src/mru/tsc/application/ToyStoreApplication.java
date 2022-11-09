@@ -11,7 +11,13 @@ import mru.tsc.view.MainMenu;
 import mru.tsc.view.RemoveToyMenu;
 import mru.tsc.view.SearchPurchaseMenu;
 
+/**
+ * This is the application class that runs the toy program
+ * @author Kevin Luo and Shaina Anne Garrido
+ *
+ */
 public class ToyStoreApplication {
+	//main method
 	public static void main(String[] args) throws Exception {
 
 		ArrayList<String> rawData = InitialFileReader.initFileRead();

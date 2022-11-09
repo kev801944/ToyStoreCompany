@@ -1,5 +1,10 @@
 package mru.tsc.view;
 
+/**
+ * This is the suggestion menu that offers the user a gift suggestion and what they would like to gift
+ * @author Kevin Luo and Shaina Anne Garrido
+ *
+ */
 public class SuggestionMenu {
     public static void suggestionMenu() {
         String[] statements = {
